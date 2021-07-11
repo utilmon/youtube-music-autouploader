@@ -1,4 +1,10 @@
 # Youtube Music Autouploader
+
+
+<div align="left">
+    <img src="images/header.png">
+</div>
+
 Youtube music allows to stream uploaded local music files without subscription. This script monitores set directories and uploads created/downloaded music files in the directories to Youtube music library automatically.
 
 # Installation
