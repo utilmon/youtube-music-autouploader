@@ -5,7 +5,7 @@ Youtube music allows to stream uploaded local music files without subscription. 
 1. Install required packages by `pip install -r requirements.txt`
 2. Create authentication file `ytmusic_auth.json`
     - See https://ytmusicapi.readthedocs.io/en/latest/setup.html#authenticated-requests
-    - Note setup command should be called as `YTMusic.setup(filepath='ytmusic_auth.json')`
+    - Note the setup command should be called as `YTMusic.setup(filepath='ytmusic_auth.json')`
 3. Open `upload_ytmusic.py` and configure line 11 and 13
     - `directories` is a list of directories to be monitored
     - `fill-empty-tag` (boolean) will decide to populate empty music tags (year, title, artist) before uploading, assuming the music file name has a form artist-title
