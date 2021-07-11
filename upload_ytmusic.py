@@ -10,6 +10,7 @@ import os
 
 directories = ["D:\Kwan\Desktop", "D:\Kwan\내 음악"]
 # torrent folder is not allowed due to slow download (> 60 s)
+fill_empty_tag = True # Fill empty music tags or not
 ytmusic = YTMusic("ytmusic_auth.json")  # Authentication file
 filetypes = [".mp3", "flac", ".wma", ".m4a", ".ogg"]  # only last four elements
 
@@ -39,7 +40,8 @@ def on_created(event):
     if fn[-4:] in filetypes:
         time.sleep(30)  # Wait until download is done
         try:
-            set_tag(fn)
+            if fill_empty_tag:
+                set_tag(fn)
             ytmusic.upload_song(fn)
         except:
             print("File does not exist")
