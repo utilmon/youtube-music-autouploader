@@ -15,11 +15,11 @@ Youtube music allows to stream uploaded local music files without subscription. 
 3. Open `upload_ytmusic.py` and configure line 11 and 13
     - `directories` is a list of directories to be monitored
     - `fill-empty-tag` (boolean) will decide to populate empty music tags (year, title, artist) before uploading, assuming the music file name has a form artist-title
-## For Windows
+#### For Windows
 
 4. Create a shortcut to the cmd file and paste into the startup folder
 
-## For Mac
+#### For Mac
 - See https://stackoverflow.com/questions/6442364/running-script-upon-login-mac
 
 
