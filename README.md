@@ -17,7 +17,7 @@ Youtube music allows to stream uploaded local music files without subscription. 
     - `fill-empty-tag` (boolean) will decide to populate empty music tags (year, title, artist) before uploading, assuming the music file name has a form artist-title
 #### For Windows
 
-4. Create a shortcut to the cmd file and paste into the startup folder
+4. Create a shortcut to the cmd file `upload_ytmusic.cmd ` and paste into the startup folder
 
 #### For Mac
 - See https://stackoverflow.com/questions/6442364/running-script-upon-login-mac
