@@ -8,7 +8,7 @@ import music_tag
 from datetime import date
 import os
 
-directories = ["/Users/j/Downloads"]
+directories = ["/Users/j/Kwan/_music"]
 # torrent folder is not allowed due to slow download (> 60 s)
 fill_empty_tag = True # Fill empty music tags or not
 ytmusic = YTMusic("/Users/j/Documents/git/youtube-music-autouploader/ytmusic_auth.json")  # Authentication file
