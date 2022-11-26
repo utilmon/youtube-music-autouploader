@@ -43,9 +43,8 @@ def on_created(event):
             if fill_empty_tag:
                 set_tag(fn)
             ytmusic.upload_song(fn)
-        except:
+        except Exception:
             print("File does not exist")
-            pass
 
 
 if __name__ == "__main__":
